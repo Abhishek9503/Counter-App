@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+</head>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container">
+        <div class="bubbles">
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:27;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:27;"></span>
+            <span style="--i:13;";></span>
+            <span style="--i:23;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:23;"></span>
+        </div>
+
+
+        
+        <div class=" w-[100vw] h-[100vh] flex flex-col items-center justify-center  gap-10" >
+          
+            <div class=" text-[#0398d4] text-[20px] font-medium" >Increament And Decreament</div>
+
+            <div class="bg-white flex text-[25px] text-[#344151] rounded-sm  gap-12 p-3  px-5 abhishek">
+
+
+                
+                <!-- Negative button-->
+
+                <button onclick="decreament()"  class="border-r-2  border-[#bfbfbf] pr-5">
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+
+
+                <div id="counter" class="font-bold">
+                    0
+                </div>
+
+
+                <!-- Positive  button-->
+                <button onclick="increament()" class="border-l-2 border-[#bfbfbf] pl-5">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+         </div>
+
+
+
+    </div>
+
+     <script src="https://kit.fontawesome.com/f725ac0db7.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

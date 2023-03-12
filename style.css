@@ -1,0 +1,69 @@
+body{
+    min-height: 100vh;
+    background: #0c192c;
+    overflow: hidden;
+    background-color: #a4508b;
+    /* background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); */
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e 100%);
+
+
+}
+
+.bubbles{
+    position: relative;
+    display: flex;
+   
+}
+
+
+
+.bubbles span{
+    position: relative;
+
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #4fc3dc44,
+       0 0 50px #4fc3dc,
+       0 0  100px #4fc3dc;
+       animation: animate 15s linear infinite;
+       animation-duration: calc(125s/var(--i));
+       left: 40px;
+
+       
+}
+.abhishek{
+    z-index: 20;
+}
+
+.bubbles span:nth-child(even)
+{
+
+
+    /* background-color: #ff2d75; */
+    box-shadow: 0 0 0 10px #1338ee44,
+    0 0 50px #ff2d75,
+    0 0 100px #ff2d75;
+}
+
+.bubbles span:nth-child(odd)
+{
+    background-color: #bcb60f;
+    box-shadow: 0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    0 0 100px #f2ff00;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(110vh) scale(0.2);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+
+
